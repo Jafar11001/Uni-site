@@ -1,0 +1,100 @@
+body{
+    margin: 0px;
+}
+header{
+    border: 1px solid black;
+    grid-area: header;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header img{
+width: 42px;
+height: 42px;
+}
+div{
+    margin: auto;
+    width: 80vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns:2fr 2fr 2fr;
+    grid-template-rows:1fr 0.5fr 5fr 0.5fr;
+    grid-template-areas:
+"header header header" 
+    "nav nav nav"
+    "aside main main" 
+    "footer footer footer";
+    grid-gap: 5px;
+}
+nav{
+    grid-area: nav;
+    border: 1px solid black;
+    display: flex;
+}
+nav ul{
+    width: 100%;
+    list-style: none ;
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li a{
+text-decoration: none;
+color: black;
+}
+nav ul li a:hover{
+    color: red;
+    transition: 0.5s;
+}
+nav ul li a i{
+margin:5px;
+}
+.fa-instagram,.fa-facebook,.fa-linkedin{
+margin: 5px;
+}
+.nav_li a:hover{
+    color:red;
+    transition: 0.5s;
+}
+.nav_li_brands a{
+color:red;
+} 
+.nav_li_brands a:hover{
+    color:black;
+    transition: 0.5s;
+    } 
+aside{
+display: flex;
+grid-area: aside;
+border: 1px solid black;
+}
+aside form{
+    padding-left: 3%;
+}
+
+main{
+    border: 1px solid black;
+    grid-area:main;
+}
+main{
+text-align: justify;
+}
+main h1{
+padding-left: 3%;
+}
+main p{
+padding-left: 3%;
+padding-right: 3%;
+}
+main iframe{
+width: 95%;
+height: 50%;
+padding-left: 2.5%;
+padding-right: 2.5%;
+padding-top: 1%;
+border: 0px;
+}
+footer{
+border: 1px solid black;
+grid-area: footer;
+text-align:center;
+}

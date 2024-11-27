@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main_contact_page.css" />
+    <script
+      src="https://kit.fontawesome.com/af74cd6fab.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div>
+      <header class="header">
+        <img class="imgHeader" src="./images/universite.png" />
+        <h1 class="h1Header">FETE DE LA SCIENCE</h1>
+      </header>
+      <nav>
+        <ul>
+          <li>
+            <a href="./index.html"><i class="fa-solid fa-house"></i>Accueil</a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-question"></i>Qui sommes nous?</a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-check"></i>Nos service</a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-file"></i>Nos partenaires</a>
+          </li>
+          <li>
+            <a href="./contact_page.html"
+              ><i class="fa-solid fa-address-book"></i>Contact</a
+            >
+          </li>
+          <li class="nav_li_brands">
+            <a href=""><i class="fa-brands fa-instagram"></i></a
+            ><a href=""><i class="fa-brands fa-facebook"></i></a
+            ><a href=""><i class="fa-brands fa-linkedin"></i></a>
+          </li>
+        </ul>
+      </nav>
+      <aside>
+        <form action="/signup" method="post">
+            <p>
+              <label>
+                <input type="radio" name="title" value="mr">
+                Mr
+              </label>
+              <label>
+                <input type="radio" name="title" value="mrs">
+                Mrs
+              </label>
+              <label>
+                <input type="radio" name="title" value="miss">
+                Miss
+              </label>
+            </p>
+            <p>
+              <label>First name</label><br>
+              <input type="text" name="first_name">
+            </p>
+            <p>
+              <label>Last name</label><br>
+              <input type="text" name="last_name">
+            </p>
+            <p>
+              <label>Email</label><br>
+              <input type="email" name="email" required>
+            </p>
+            <p>
+              <label>Phone number</label><br>
+              <input type="tel" name="phone">
+            </p>
+            <p>
+              <label>Password</label><br>
+              <input type="password" name="password">
+            </p>
+            <p>
+              <label>Country</label><br>
+              <select>
+                <option>France</option>
+                <option>Germany</option>
+                <option>United States</option>
+                <option>Turkey</option>
+                <option>Spain</option>
+              </select>
+            </p>
+            <p>
+              <label>
+                <input type="checkbox" value="terms">
+                I agree to the <a href="/terms">terms and conditions</a>
+              </label>
+            </p>
+            <p>
+              <button>Sign up</button>
+              <button type="reset">Reset form</button>
+            </p>
+        </form>
+      </aside>
+      <main>
+        <h1>Contactez-nous</h1>
+        <p><i class="fa-solid fa-map-pin"></i> : 4 rue Blaise Pascale 67000 Strasbourg</p>
+        <p><i class="fa-solid fa-phone"></i> : 03 99 01 02 03</p>
+        <p><i class="fa-solid fa-envelope"></i> : contact@unistra.fr</p>
+        <p><i class="fa-solid fa-globe"></i> : www.unistra.fr</p>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2639.471711466177!2d7.761734202504173!3d48.58166625746217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4796c8fc1506f85b%3A0xe8f702a03f0c2371!2sUniversity%20De%20Strasbourg!5e0!3m2!1sen!2sfr!4v1732696765126!5m2!1sen!2sfr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </main>
+      <footer>
+        <p>&copy;Copyrigth 2024 - Unistra HTML/CSS</p>
+      </footer>
+    </div>
+  </body>
+</html>
